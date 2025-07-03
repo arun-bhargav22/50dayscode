@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.google.com/search?">
+  <label><input type="checkbox" name="q" value="Apple"> Apple</label><br>
+  <label><input type="checkbox" name="q" value="Banana"> Banana</label><br>
+  <label><input type="checkbox" name="q" value="Mango"> Mango</label><br>
+  <label><input type="checkbox" name="q" value="Biryani" checked>Biryani</label><br>
+  <input type="submit"><br>
+  <label><input type="radio" name="gender" value="male">Male</label><br>
+  <label><input type="radio" name="gender" value="female">Female</label><br>
+  <!--<input type="submit"><br>-->
+  <!-- giving different names leads to select multiple options here we gave same name as gender so we got to select only one option--><br>
+   <label>Range<input type="range" min="0" max="100" name="volume" step="10"></label><br>
+   <!-- volume is shown in thwe url i.e volume=the value you scrolled in range bar-->
+    <!--step variable specifies the amount by which the value should increase or decrease when the user uses the input's up/down arrows or slider.-->
+    <!--if you want fix value then you need to place value="70" then it will get exact 70-->
+    <label for="volume">Volume: <span id="rangeValue">50</span></label><br>
+  <input type="range" id="volume" name="volume" min="0" max="100" value="50" step="1" 
+         oninput="rangeValue.innerText = this.value"><br>
+         <!-- to see the value which we have selected on the scrollbar-->
+          <label for="branch">Select Branch</label>
+          <select id="branch" name="branch">
+            <option value="select your branch">Select</option>
+            <option value="cse">CSE</option>
+            <option value="csd">CSD</option>
+          </select>
+</form>
+</body>
+</html>
