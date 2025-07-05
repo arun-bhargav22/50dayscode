@@ -1,0 +1,295 @@
+html,body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:lightcyan;
+    padding: 20px;
+    margin: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    width:100%;
+    overflow-x: hidden;
+}
+header{
+    background-color:darkgray;
+    font-weight: 200px;
+    font-size:50px;
+    text-align: center;
+}
+nav{
+    background-color: #f0f0f0;
+    padding: 20px 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px; 
+  padding: 0;
+  margin: 0;
+}
+nav ul li a {
+  text-decoration: none; 
+  color: black; 
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+nav ul li a:hover {
+    font-size: 20px;
+  color: #007bff;
+}
+/* div:hover{
+    background-color:lightgoldenrodyellow;
+    color: wheat;
+} */
+.image-container{
+    text-align: center;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+}
+h2{
+    color:orange;
+    text-align: center;
+    font-weight: 200px;
+}
+.name-content{
+    color: black;
+    text-align: center;
+    font-weight:200px;
+    font-size:100px;
+}
+.para-content{
+    font-size:20px;
+    color:black;
+    background-color: antiquewhite;
+}
+.edu-content {
+    width: 100%;        
+    height: auto;      
+    padding: 40px;     
+    margin: 20px 0;     
+    background-color: #f0f0f0; 
+}
+.edu-title{
+    padding: 40px;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeInDown 1s ease-out;
+}
+.edu-table{
+    width: 50%;           
+    height: 50%;           
+    font-size: 18px;       
+    padding: 20px;         
+    border-collapse: collapse;
+}
+
+.education th, .education td {
+    padding: 25px 35px;     /* increases cell spacing */
+    text-align: center;
+    border: 1px solid #ccc;
+}
+table{
+    padding: 30px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 70%;
+    table-layout: fixed;
+}
+tr{
+    font-family:'Times New Roman', Times, serif;
+    background-color:lightyellow;
+}
+th{
+    text-align: center;
+    font-size: 20px;
+    background-color: lightcoral;
+}
+td{
+    text-align: center;
+}
+ol,ul,.connect{
+    text-align: left;
+    width: fit-content;
+    margin:auto;
+}
+.skill-content {
+    width: 100%;
+    height: auto; 
+    padding: 20px; 
+    margin: 20px 0;
+    background-color: #f0f0f0;
+}
+.skill-title{
+    padding: 30px;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeInDown 1s ease-out;
+}
+.ol-link{
+    font-size: 20px;
+    font-weight: 50px;
+}
+.coding-content{
+    width: 100%;         
+    height: auto;        
+    padding: 20px;       
+    margin: 20px 0;      
+    background-color: #f0f0f0; 
+}
+.coding-title{
+    padding: 30px;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeInDown 1s ease-out;
+}
+.coding-ol{
+    font-size: 20px;
+    font-weight: 50px;
+}
+.tool-content{
+    width: 100%;         
+    height: auto;        
+    padding: 20px;       
+    margin: 20px 0;      
+    background-color: #f0f0f0; 
+}
+.tool-title{
+    padding: 30px;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeInDown 1s ease-out;
+}
+.tool-ul{
+    font-size: 20px;
+    font-weight: 50px;
+}
+.certi-content{
+    width: 100%;         
+    height: auto;        
+    padding: 20px;       
+    margin: 20px 0;
+    background-color: #f0f0f0; 
+}
+.certi-title{
+    padding: 30px;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeInDown 1s ease-out;
+}
+.certi-ul{
+    font-size: 20px;
+    font-weight: 50px;
+}
+.extra-content{
+    width: 100%;         
+    height: auto;        
+    padding: 20px;       
+    margin: 20px 0;      
+    background-color: #f0f0f0; 
+}
+.extra-title{
+    padding: 30px;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeInDown 1s ease-out;
+}
+.extra-ul{
+    font-size: 20px;
+    font-weight: 50px;
+}
+.project-content{
+    width: 100%;    
+    height: auto;
+    padding: 20px;       
+    margin: 20px 0;     
+    background-color: #f0f0f0; 
+}
+.project-title{
+    padding: 30px;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeInDown 1s ease-out;
+}
+.project-ul{
+    font-size: 20px;
+    font-weight: 50px;
+}
+.connect-content{
+    width: 100%;         
+    height: auto;        
+    padding: 20px;       
+    margin: 20px 0;     
+    background-color: #f0f0f0; 
+}
+.connect-title{
+    padding: 30px;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeInDown 1s ease-out;
+}
+.connect-anchor{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 50px;
+}
+.achiev-content{
+    width: 100%;         
+    height: auto;       
+    padding: 20px;       
+    margin: 20px 0;     
+    background-color: #f0f0f0;
+}
+.achiev-title{
+    padding: 30px;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeInDown 1s ease-out;
+}
+.achiev-ul{
+    font-size: 20px;
+    font-weight: 50px;
+}
+.footer-content {
+    height: 50px;
+    background-color:black;
+    color: #fff; 
+    text-align: center; 
+    padding: 20px;           
+    font-size: 16px;               
+    position: relative;           
+    bottom: 0;
+    width: 100%;
+}
