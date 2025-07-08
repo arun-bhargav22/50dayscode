@@ -1,0 +1,77 @@
+.title{
+    text-align: center;
+    padding: 10px;
+    font-size: 3rem;
+    color:black;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeInDown 1s ease-out;
+}
+.header{
+    height: 250px;
+    padding: 10px;
+    background-image: url(india.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+body{
+    text-align: center;
+    margin: 0;
+}
+.container{
+    background-image: url(backgroundflag.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    display: grid;
+    gap:20px;
+    padding: 20px;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+}
+.container img{
+    height:400px;
+    width: 100%;
+    border-radius: 10px;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color:black;
+}
+h2{
+    opacity: 0;
+    transform: translateX(-100%);
+    animation-name: slideInText;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes slideIn {
+        from{
+            transform: translateX(-100%);
+        }
+        to{
+            transform: translateX(0);
+        }
+}
+
+.container img{
+    animation-name: slideIn;
+    animation-duration: 2s;
+}
+@keyframes slideInText{
+    from{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+        to{
+            transform: translateX(0);
+            opacity: 1;
+        }
+}
