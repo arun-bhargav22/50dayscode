@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let name=prompt("Enter your name");
+        let age=prompt("Enter your age");
+        age=Number(age);
+        let message="Name: " + name + "\nAge: " + age + "\n";
+        switch(true){
+            case (age>=13 && age<=18):
+                meassage +=" Your are a Teenager not eligible to vote";
+                break;
+            case (age>=19 && age<=64):
+                message +="Your eligible to Vote";
+                break;
+            case (age>=65):
+                messsage +="You are a Senior Citizen";
+                break;
+            default:
+                message="Invalid Details";
+        }
+        alert(message);
+    </script>
+</body>
+</html>
