@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let num=(n)=>{
+            if(n%3==0 && n%5==0){
+                return "FizzBuzz";
+            }
+                else if(n%3==0){
+                    return "Fizz";
+                }
+                else if(n%5==0){
+                    return "Buzz";
+                }
+                else{
+                    return n;
+                }
+        }
+        let n=prompt("Enter a number");
+        alert(num(n));
+    </script>
+</body>
+</html>

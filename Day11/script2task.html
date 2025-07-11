@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial</title>
+</head>
+<body>
+    <script>
+        let number=prompt("Enter number to find its factorial");
+        let factorial = (n) => {
+            if (n === 0 || n === 1) return 1;
+            return n * factorial(n - 1);
+        };
+        alert("the factorial of number is"+factorial(number));
+    </script>
+</body>
+</html>
